@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  macro_orchestrator:
+    build: .
+    container_name: macro_job_client
+    volumes:
+      - //c/shared:/shared
+    restart: on-failure

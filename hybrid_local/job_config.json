@@ -1,0 +1,5 @@
+{
+  "input": "input.xlsx",
+  "output": "output.xlsx",
+  "macro": "main_macro"
+}
