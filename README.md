@@ -17,7 +17,7 @@ project/
 
 ### 🧱 Architecture Diagram
 
-```
+```mermaid
 graph TD
     A[Docker Container - Orchestrator] -->|Job File + Excel Input| B[Windows Host Shared Folder]
     B --> C[xlwings Watcher - Python]
